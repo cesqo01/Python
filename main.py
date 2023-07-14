@@ -1,16 +1,33 @@
-# This is a sample Python script.
+import math
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+"""
 
+n = 'fd\'df'
+print(n)gd
+gdgsgs
+"""
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+# a = 4
+# b = 5
+# c = 7
+# print(f"a + b + c = {a + b + c}")
 
+# c = "1234"
+# print(c)
+# print(type(c))
+# c = int(c)
+# print(c)
+# print(type(c))
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-qq
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# a = int(input("Enter Number: "))
+# print(type(a))
+# b = int(input("Enter Number: "))
+# print(type(b))
+# c = a / b
+# print(type(c))
+# print(c)
+
+speed = int(input("Enter speed: "))
+distance = int(input("Enter distance: "))
+# time = math.ceil(distance / speed)
+print(f"Машина проедет {distance} км за {math.ceil(distance/speed)} дней")
